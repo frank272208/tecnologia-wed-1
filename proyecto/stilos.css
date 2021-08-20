@@ -5,7 +5,15 @@
 }
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: #000 url('imagenes/fondo.jpg');
+	background: red;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.contenedor {
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
 }
