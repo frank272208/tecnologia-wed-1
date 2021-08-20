@@ -11,8 +11,8 @@ body {
 }
 .contenedor {
 	margin: auto;
-	width: 90%;
-	max-width: 1000px;
+	width: 100%;
+	max-width: 1700px;
 	display: flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -25,4 +25,27 @@ header {
 	flex-wrap:wrap;
 	justify-content:space-between;
 	align-items:center;
+}
+header .menu a {
+	color: #fff;
+	text-decoration: none;
+	margin-right:40px;
+	font-size: 18px;
+}
+
+header .menu a:hover {text-decoration: underline;}
+
+.main {
+	background: #fff;
+	padding: 20px;
+	width: 70%;
+}
+img{
+    width: 50%;
+}
+.parrafo{
+    margin: auto;
+    width: 50%;
+    background: blue;
+
 }
