@@ -5,7 +5,7 @@
 }
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: red;
+	background:url('imagenes/fondo.jfif');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -35,19 +35,52 @@ header .menu a {
 
 header .menu a:hover {text-decoration: underline;}
 
-.main {
-	background: #fff;
-	padding: 20px;
-	width: 70%;
-}
+
 img{
-    width: 50%;
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
 }
 .parrafo1{
-    margin: 1000px, 100px, 100px, 100px;
+    margin: -16%  0%  0%  47%;
     width: 50%;
-    background: blue;
     border-radius: 20px;
-    
+}
+.parrafo2{
+	margin: -350px 0px 100px 50px;
+	width: 50%;
+}
+main{
+    width: 100%;
+    background: rgb(119, 119, 119);
 
+}
+.img1{
+    margin: 50px 0px 0px 50px;
+}
+.img2{
+    margin: 3% 0% 15% 55%;
+    width: 80%;
+}
+footer {
+	margin-top: 20px;
+	background: rgba(255,255,255,.3);
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	flex-direction:row;
+	/*flex-wrap:no-wrap;*/
+	justify-content:space-between;
+}
+
+footer .redes-sociales a {
+	color: #fff;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+footer .redes-sociales a:hover {
+	text-decoration: none;
 }
