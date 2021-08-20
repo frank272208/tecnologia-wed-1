@@ -43,9 +43,11 @@ header .menu a:hover {text-decoration: underline;}
 img{
     width: 50%;
 }
-.parrafo{
-    margin: auto;
+.parrafo1{
+    margin: 1000px, 100px, 100px, 100px;
     width: 50%;
     background: blue;
+    border-radius: 20px;
+    
 
 }
