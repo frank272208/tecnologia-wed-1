@@ -23,18 +23,19 @@ function temperatura()
     
      if (num>=-10<=15) {
         document.write('frio');
-        document.getElementById('res').value =  num
+        
     }
     else
     if (num >= 16<=25) {
 
         document.write('templado');
-        document.getElementById('res').value =  num
+        
     }
     else
     if(num>=26<=40){
         document.write('calor');
-    document.getElementById('res').value = num
+        document.getElementById('resultado').value = document
+  
     }
 }
 //ejercicio 3
@@ -50,6 +51,7 @@ function factorial (){
 //ejercicio 4
 function fecha(){
     var f= new Date();
-    document.write(f.getDate()+"/"+(f.getMonth()+1)+"/"+f.getFullYear());
+   
+        document.write('LA FECHA ACTUAL ES : '+f.getDate()+"/"+(f.getMonth()+1)+"/"+f.getFullYear());
    
 }
