@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "Titulo":"Lugares Turisticos",
     "pais": "Bolivia",
@@ -41,4 +42,49 @@
 
 
 
+=======
+{
+    "Titulo":"Lugares Turisticos",
+    "pais": "Bolivia",
+    "ciudades":[
+        {
+        "nombre":"Cochabamba",
+        "fundacion":1810,
+        "lugares_turisticos":[
+            
+                "Cristo de la concordia",
+                "La Angostura",
+                "Museo "
+        ]
+
+        },
+
+        {
+            "nombre":"La Paz",
+            "fundacion":1810,
+            "lugares_turisticos":[
+                
+                    "Tiahuanaku",
+                    "Lago Titicaca",
+                    "La isla del sol"
+            ]
+            },
+
+            {
+                "nombre":"Potosi",
+                "fundacion":1812,
+                "lugares_turisticos":[
+                    
+                        "Salar de uyuni",
+                        "Toro toro",
+                        "Casa de la moneda"
+                ]
+                }
+            
+
+    ]
+
+
+
+>>>>>>> 4d2ef7a21112add0bece3d10a05330c00a11d272
 }
